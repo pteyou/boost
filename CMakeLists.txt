@@ -5,6 +5,7 @@ INCLUDE_DIRECTORIES("/home/pat/boost_1_69_0")
 SET(boost_lib_dir "/home/pat/boost_1_69_0/build/lib" CACHE PATH "Path to the boost compiled binaries" FORCE)
 ADD_EXECUTABLE(options options.cpp)
 ADD_EXECUTABLE(any any.cpp)
+ADD_EXECUTABLE(variant variant.cpp)
 TARGET_LINK_LIBRARIES(options boost_program_options)
 
 
