@@ -6,6 +6,7 @@ SET(boost_lib_dir "/home/pat/boost_1_69_0/build/lib" CACHE PATH "Path to the boo
 ADD_EXECUTABLE(options options.cpp)
 ADD_EXECUTABLE(any any.cpp)
 ADD_EXECUTABLE(variant variant.cpp)
+ADD_EXECUTABLE(optional optional.cpp)
 TARGET_LINK_LIBRARIES(options boost_program_options)
 
 
