@@ -7,6 +7,7 @@ ADD_EXECUTABLE(options options.cpp)
 ADD_EXECUTABLE(any any.cpp)
 ADD_EXECUTABLE(variant variant.cpp)
 ADD_EXECUTABLE(optional optional.cpp)
+ADD_EXECUTABLE(tuple tuple.cpp)
 TARGET_LINK_LIBRARIES(options boost_program_options)
 
 
