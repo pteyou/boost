@@ -9,6 +9,7 @@ ADD_EXECUTABLE(variant variant.cpp)
 ADD_EXECUTABLE(optional optional.cpp)
 ADD_EXECUTABLE(tuple tuple.cpp)
 ADD_EXECUTABLE(bind bind.cpp)
+ADD_EXECUTABLE(casting casting.cpp)
 TARGET_LINK_LIBRARIES(options boost_program_options)
 
 
