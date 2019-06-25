@@ -1,5 +1,6 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
 PROJECT(boost)
+add_subdirectory(spirit)
 LINK_DIRECTORIES("${boost_lib_dir}")
 INCLUDE_DIRECTORIES("/home/pat/boost_1_69_0")
 SET(boost_lib_dir "/home/pat/boost_1_69_0/build/lib" CACHE PATH "Path to the boost compiled binaries" FORCE)
